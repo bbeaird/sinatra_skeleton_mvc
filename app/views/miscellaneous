@@ -1,0 +1,7 @@
+<!-- <form name="input" action="#" method="get">
+  <input type="submit" value="Sign in with Facebook">
+</form> -->
+
+<%= link_to "Log in with Facebook", "/auth/facebook" %>
+
+<%= link_to 'Login', Koala::Facebook::OAuth.new.url_for_oauth_code(:callback => OAUTH_REDIRECT_URL) %>

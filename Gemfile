@@ -19,6 +19,8 @@ gem 'shotgun'
 
 gem "koala", "~> 1.8.0rc1"
 
+gem 'oauth'
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'

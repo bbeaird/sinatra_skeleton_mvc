@@ -32,6 +32,7 @@ GEM
       multi_json
     multi_json (1.6.1)
     multipart-post (1.2.0)
+    oauth (0.4.7)
     pg (0.14.1)
     rack (1.5.2)
     rack-protection (1.5.0)
@@ -78,6 +79,7 @@ DEPENDENCIES
   factory_girl
   faker
   koala (~> 1.8.0rc1)
+  oauth
   pg
   rack-test
   rake
